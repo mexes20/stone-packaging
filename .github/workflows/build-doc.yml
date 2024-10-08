@@ -30,7 +30,6 @@ jobs:
       - name: Build docs
         run: yarn build
 
-        # Deploy to Github Pages 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
